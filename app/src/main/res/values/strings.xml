@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MusicApp</string>
+    <string name="popular">Most Popular</string>
+    <string name="song1">Don\'t Let Me Down Ft.Daya</string>
+    <string name="singer1">The Chainsmokers</string>
+    <string name="song2">Cheap Thrills</string>
+    <string name="singer2">Sia</string>
+    <string name="song3">Where Are Ü Now Ft.Skrillex</string>
+    <string name="singer3">Justin Beiber</string>
+</resources>

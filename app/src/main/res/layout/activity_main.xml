@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.android.ipshita.musicapp.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:scaleType="centerCrop"
+                android:src="@drawable/cast"
+                android:layout_width="match_parent"
+                android:layout_height="400dp" />
+
+            <ImageView
+                android:layout_marginTop="150dp"
+                android:src="@drawable/musicwhite"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                style="@style/headfont"
+                android:layout_marginTop="200dp"
+                android:text="@string/app_name"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+        <TextView
+            style="@style/headingfont"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp"
+            android:text="@string/popular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="16dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_margin="10dp"
+                android:id="@+id/chainsmokers"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:src="@drawable/donlemmedown"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp" />
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:text="The Chainsmokers..."
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/cheapthrills"
+                android:layout_margin="10dp"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:src="@drawable/cheapthrills"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp" />
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:text="Sia- Cheap Thrills"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/headingfont"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp"
+            android:id="@+id/browsemore"
+            android:text="    Browse More "
+            android:background="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="method"/>
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

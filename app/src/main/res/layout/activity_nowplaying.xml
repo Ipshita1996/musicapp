@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.android.ipshita.musicapp.nowplaying">
+
+
+    <ImageView
+        android:src="@drawable/donlemmedown"
+        android:layout_width="match_parent"
+        android:layout_height="400dp" />
+
+    <LinearLayout
+        android:layout_marginLeft="70dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_margin="16dp"
+            android:id="@+id/play"
+            android:text="PLAY"
+            android:onClick="playsong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/pause"
+            android:onClick="pausesong"
+            android:layout_margin="16dp"
+            android:text="PAUSE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

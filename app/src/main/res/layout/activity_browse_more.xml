@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.android.ipshita.musicapp.browse_more">
+
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/chainsmokers"
+                android:layout_margin="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/donlemmedown"
+                    android:src="@drawable/donlemmedown"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp" />
+                <TextView
+                    style="@style/songtitle"
+                    android:id="@+id/headingofdonlemmedown"
+                    android:layout_marginLeft="8dp"
+                    android:layout_toRightOf="@id/donlemmedown"
+                    android:text="@string/song1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_marginTop="12dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_below="@id/headingofdonlemmedown"
+                    android:layout_toRightOf="@id/donlemmedown"
+                    android:text="@string/singer1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:id="@+id/sia"
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/cheapthrills"
+                android:src="@drawable/cheapthrills"
+                android:layout_width="80dp"
+                android:layout_height="80dp" />
+            <TextView
+                style="@style/songtitle"
+                android:id="@+id/headingofcheapthrills"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@id/cheapthrills"
+                android:text="@string/song2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginTop="12dp"
+                android:layout_marginLeft="8dp"
+                android:layout_below="@id/headingofcheapthrills"
+                android:layout_toRightOf="@id/cheapthrills"
+                android:text="@string/singer2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:id="@+id/beiber"
+                android:layout_margin="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/whereareyounow"
+                    android:src="@drawable/purpose"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp" />
+                <TextView
+                    style="@style/songtitle"
+                    android:id="@+id/headingofwhereareyounow"
+                    android:layout_marginLeft="8dp"
+                    android:layout_toRightOf="@id/whereareyounow"
+                    android:text="@string/song3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_marginTop="12dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_below="@id/headingofwhereareyounow"
+                    android:layout_toRightOf="@id/whereareyounow"
+                    android:text="@string/singer3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
